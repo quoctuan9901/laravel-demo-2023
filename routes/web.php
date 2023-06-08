@@ -16,7 +16,7 @@ use App\Http\Controllers\CategoryController;
 */
 
 
-Route::get('admin/category/create':z,[CategoryController::class, 'create']);
+Route::get('admin/category/create',[CategoryController::class, 'create']);
 
 
 Route::get('/', function () {
