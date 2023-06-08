@@ -16,7 +16,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.users.index');
 });
 
 Route::get('data-mobile', function () {
