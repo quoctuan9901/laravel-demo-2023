@@ -12,19 +12,21 @@ class CategoryController extends Controller
     }
 
     public function store(){
-
+        
     }
 
     public function index(){
+        return view();
 
     }
 
     public function edit(){
+        return view();
 
     }
 
    public function update(){
-    
+
    }
 
     public function delete(){
